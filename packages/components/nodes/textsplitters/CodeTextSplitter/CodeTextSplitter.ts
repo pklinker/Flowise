@@ -32,8 +32,15 @@ class CodeTextSplitter_TextSplitters implements INode {
                 type: 'options',
                 options: [
                     {
+                        label: 'cobol',
+                        name: 'cobol'
+                    },                    {
                         label: 'cpp',
                         name: 'cpp'
+                    },
+                    {
+                        label: 'csharp',
+                        name: 'csharp'
                     },
                     {
                         label: 'go',
